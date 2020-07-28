@@ -1,0 +1,183 @@
+.container{
+    background-image: linear-gradient(#0b1026,darkblue);
+}
+
+  /*Artist main body*/
+
+.artist-body{
+    display: flex;
+    flex-direction: row;
+}
+
+ /*Artist profile desccription*/
+
+.artist-main{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.artist-about{
+    background-image: repeating-linear-gradient(90deg ,#0b1026 ,blue, #0b1026);
+    box-shadow: 0 0 4px 2px;
+    width: 100%;
+    height: 20rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.artist-profile-image{
+    width: 40%;
+    height: 18rem;
+    background-color: #0b1026;
+    opacity: .9;
+}
+
+.artist-profile-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.artist-description{
+    color: white;
+    width: 60%;
+    height: 18rem;
+    font-size: .8rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.artist-description button{
+    height: 2.2rem;
+    width: 8rem;
+     font-size: 1rem;
+    background-image: linear-gradient(45deg,darkviolet,hotpink);
+    border: none;
+}
+
+#shift-up{
+    margin-top: 1px;
+    letter-spacing: .5px;
+}
+
+  /*playlist*/
+
+.similar-playlist{
+    width: 30%;
+    height: 100vh;
+}
+
+.artist-songs{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.artist-table-row{
+    background-image: repeating-linear-gradient(90deg ,#0b1026 ,blue, #0b1026);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.artist-songs table tr td{
+    height: 2.5rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+.serial-number{
+    width: 5%;
+    text-align: center;
+}
+
+.song-photo{
+    padding: 0px .3rem;
+    width: 8%;
+    text-align: center;
+}
+
+.song-photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.song-name{
+    width: 70%;
+    line-height: .5px;
+}
+
+.heart{
+    width: 5%;
+    text-align: center;
+}
+
+.add-to-favourite{
+    width: 5%;
+    text-align: center;
+}
+
+ /*Recent PlayList*/
+
+#row-heading{
+    width: 100%;
+    height: 3rem;
+    color: white;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.similar-playlist-table-main{
+    color: white;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.similar-playlist-table{
+    background-image: repeating-linear-gradient(90deg ,#0b1026 ,blue, #0b1026);
+}
+
+.similar-playlist-serial-no{
+    text-align: center;
+    width: 10%;
+}
+
+.similar-playlist-photo{
+    text-align: center;
+    width: 15%;
+}
+
+.similar-playlist-song-name{
+    width: 65%;
+    line-height: .5px;
+}
+
+.similar-playlist-song-name p{
+    font-size: .8rem;
+}
+
+.similar-playlist-table tr td{
+    height: 2.5rem;
+    padding: 0 .3rem;
+}
+
+.similar-playlist-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.similar-playlist-heart{
+    text-align: center;
+    width: 10%;
+}
+
+
